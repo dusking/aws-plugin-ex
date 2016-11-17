@@ -34,10 +34,12 @@ setup(
     ],
 
     license='LICENSE',
+    dependency_links=[
+        'https://github.com/cloudify-cosmo/cloudify-aws-plugin/tarball/1.4.3#egg=cloudify-aws-plugin-1.4.3'
+    ],
     install_requires=[
         'cloudify-plugins-common>=3.3.1',
         'boto==2.38.0',
         'pycrypto==2.6.1'
-        # 'cloudify-aws-plugin==1.4.3'
     ]
 )
