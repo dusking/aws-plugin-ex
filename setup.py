@@ -21,7 +21,7 @@ from setuptools import setup
 setup(
 
     # Do not use underscores in the plugin name.
-    name='cloudify-aws-ext',
+    name='aws-plugin-ex',
     author='dusking',
     author_email='',
 
