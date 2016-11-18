@@ -21,7 +21,7 @@ from boto import exception
 # Cloudify imports
 from cloudify import ctx
 from cloudify import compute
-from cloudify_aws.ec2.instance import Instance
+from aws.cloudify_aws.ec2.instance import Instance
 from cloudify_aws.ec2 import passwd
 from cloudify.decorators import operation
 from cloudify_aws.base import AwsBaseNode
