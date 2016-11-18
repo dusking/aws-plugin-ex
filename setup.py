@@ -21,11 +21,11 @@ from setuptools import setup
 setup(
 
     # Do not use underscores in the plugin name.
-    name='aws-plugin-ex',
+    name='cloudify-aws-ext',
     author='dusking',
     author_email='',
 
-    version='0.0.2',
+    version='0.0.1',
     description='Cloudify plugin for AWS infrastructure.',
 
     # This must correspond to the actual packages in the plugin.
@@ -34,9 +34,10 @@ setup(
     ],
 
     license='LICENSE',
-    dependency_links=[
-        'https://github.com/cloudify-cosmo/cloudify-aws-plugin/tarball/1.4.3#egg=cloudify-aws-plugin-1.4.3'
-    ],
+    # dependency_links=[
+    #     'https://github.com/cloudify-cosmo/cloudify-aws-plugin/tarball/1.4.2#egg=cloudify-aws-plugin-1.4.2'
+    #     # 'https://github.com/cloudify-cosmo/cloudify-aws-plugin/tarball/1.4.3#egg=cloudify-aws-plugin-1.4.3'
+    # ],
     install_requires=[
         'cloudify-plugins-common>=3.3.1',
         'boto==2.38.0',
